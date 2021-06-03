@@ -1,0 +1,7 @@
+/.idea
+/backup
+/tmp
+/mybk.conf
+/mybk.log
+*.sql
+/.access.cnf

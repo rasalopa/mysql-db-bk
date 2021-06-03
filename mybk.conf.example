@@ -1,0 +1,37 @@
+#########################################################################################
+#				      Mysql Backups
+#				        @rasalopa
+#########################################################################################
+
+# env
+version="Mysql Backups"
+BACKUP_DIR=backup/$TIMESTAMP
+DEL_LOCAL_BK=false
+NOW=$(date +"%F %T")
+TIMESTAMP=$(date +"%F")
+COMPRESS=true
+SEND_TO_REMOTE=false
+TMP_DIR=tmp
+LOCK_TABLES=false
+
+# MYSQL SERVER LINUX
+MYSQL=/opt/bitnami/mariadb/bin/mysql
+MYSQLDUMP=/opt/bitnami/mariadb/bin/mysqldump
+MYSQL_SOCK=/opt/bitnami/mariadb/tmp/mysql.sock
+
+# MYSQL DATA CONNECTION #################################################################
+DATABASE=
+MYSQL_USER=
+MYSQL_PASSWD='passwd'
+MYSQL_HOST=localhost
+#########################################################################################
+
+# REMOTE SERVER DATA
+REMOTE_USER=
+REMOTE_HOST=
+REMOTE_DIR=
+
+# NOTIFICATIONS
+SUCCESS_EMAIL=false
+TO=
+SUBJECT="Mysql backup - $DATABASE"
