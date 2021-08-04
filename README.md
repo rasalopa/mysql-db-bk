@@ -1,4 +1,4 @@
-# ✔️ Mysql backups - Bash script
+# ✔️ Respados de base de datos Mysql - Script en bash
 
 > Este pequeño script escrito en Bash te permite hacer respaldos de tus bases de datos de Mysql, solo tienes que decirle al script donde se encuentra tu servidor y poner los datos de acceso.
 > 
