@@ -1,5 +1,20 @@
 # ✔️ Respados de base de datos Mysql - Script en bash
 
+<p align="center">
+  <a href="https://github.com/rasalopa/mysql-db-bk/archive/refs/heads/master.zip" target="_blank">
+    <img src="https://img.shields.io/github/downloads/rasalopa/mysql-db-bk/total.svg" alt="Total Downloads">
+  </a>
+  <a href="https://github.com/rasalopa/mysql-db-bk/" target="_blank">
+    <img src="https://svgshare.com/i/Zhy.svg" alt="OS">
+  </a>
+  <a href="https://www.gnu.org/software/bash/" target="_blank">
+    <img src="https://img.shields.io/badge/Made%20with-Bash-1f425f.svg" alt="Bash">
+  </a>
+  <a href="https://github.com/rasalopa/mysql-db-bk/releases" target="_blank">
+    <img src="https://img.shields.io/github/release/rasalopa/mysql-db-bk.svg" alt="Release">
+  </a>
+</p>
+
 > Este pequeño script escrito en Bash te permite hacer respaldos de tus bases de datos de Mysql, solo tienes que decirle al script donde se encuentra tu servidor y poner los datos de acceso.
 > 
 > También puede comprimir dichos respaldos a .tar y se pueden enviar a un servidor remoto.
